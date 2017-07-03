@@ -1,0 +1,13 @@
+{% extends "layouts/base.html" %}
+{% block title %}
+{% endblock title %}
+
+{% block content %}
+      <div class="item">
+        <h1>Unete a la Comunidad  <br> Python Barranquilla en Slack!</h1>
+        <form method="POST" action="/invite" >
+          <input type="text" name="email" placeholder="Enter your email" id="slack-email">
+          <button><i class="fa fa-arrow-circle-right"></i></button>
+        </form>
+      </div>
+{% endblock content %}
